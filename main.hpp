@@ -35,7 +35,7 @@ void insert(vector<int> &number, int idx)
 
 void insertionsort(vector<int> &number)
 {
-    for (int i = 0; i < static_cast<int>(number.size()); i++)
+    for (int i = 0; i < number.size(); i++)
         insert(number, i);
 }
 
